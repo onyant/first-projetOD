@@ -1,0 +1,80 @@
+
+body{
+    background-color: #1f2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/**%MENU */
+
+header .flex-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 1 3 0;
+    
+    font-size: 24px;
+    color: #f9faf8;
+     text-align-last:center;
+
+}
+header .flex-menu nav{
+    flex :1 1 0;
+    
+}
+header .flex-menu nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+
+
+/** Container -------*/
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-container div {
+    flex: 1;    
+}
+.flex-container div h1{
+    margin-left: 150px;
+    font-size: 48px ;
+    font-weight: bold;
+    color: #f9faf8;  
+}
+.flex-container div p{
+    margin-left: 150px;
+    font-size: 15px ;
+    font-weight: bold;
+    color: #f9faf8;  
+}
+.flex-container a{
+    margin-left: 150px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#img{
+    background-color: antiquewhite;
+    height: 250px;
+    margin: 0;
+    text-align: center;
+    
+}
+/*aticle*/
+
+article .flex-info {
+    display: flex;
+    
+}
+article div{
+    flex: 1;
+}
