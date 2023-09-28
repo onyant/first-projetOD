@@ -38,29 +38,25 @@ header .flex-menu nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px
-   
+    gap: 245px;
+    padding-bottom: 250px;
 }
 
-.flex-container div {
-    flex:0;   
-    
-}
 .flex-container div h1{
-    margin-left: 150px;
+   
     font-size: 48px ;
     font-weight: bold;
     color: #f9faf8;  
 }
 .flex-container div .txt{
-    margin-left: 150px;
+   
     font-size: 15px ;
     font-weight: bold;
     color: #f9faf8;  
 }
 
 .flex-container div a{
-    margin-left: 150px;
+    
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -70,6 +66,7 @@ header .flex-menu nav a{
 .flex-container div  #img{
     background-color: antiquewhite;
     height: 250px;
+    width: 500px;
     text-align: center;
     justify-content: center;
     
@@ -77,7 +74,7 @@ header .flex-menu nav a{
 /*aticle*/
 article{
     background-color: white;
-    margin-top: 170px;
+    padding:  250px 0px;
     justify-content: center;
     align-items: center;
 }
