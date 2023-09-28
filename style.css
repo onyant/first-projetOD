@@ -36,11 +36,13 @@ header .flex-menu nav a{
 /** Container -------*/
 .flex-container{
     display: flex;
+
     justify-content: center;
     align-items: center;
     gap: 245px;
     padding-bottom: 250px;
 }
+
 
 .flex-container div h1{
    
@@ -58,17 +60,18 @@ header .flex-menu nav a{
 .flex-container div a{
     
     text-decoration: none;
-    background-color: blue;
+    background-color: #3382F6;
     color: white;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 10px;
+    padding: 8px 20px;
 }
 .flex-container div  #img{
     background-color: antiquewhite;
     height: 250px;
     width: 500px;
     text-align: center;
-    justify-content: center;
+    line-height: 250px;
+
     
 }
 /*aticle*/
@@ -86,7 +89,7 @@ article h1{
 }
 article .flex-info {
     display: flex;
-   gap: 20px;
+   gap: 50px;
    
     justify-content: center;
     align-items: center;
@@ -107,4 +110,67 @@ article .child p{
     text-align: center; 
 }
 
+section {
+    background-color:#ebe5e9 ;
+    padding: 150px 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+section div {
+    flex :0.5 0 0;
+}
+section p{
+  font-size: 36px;
+  font-weight: lighter;
+}
+section .name{
+    margin-top: 0px;
+    margin-left: 450px;
+}
+/*call to action*/ 
 
+article .flex-call{
+    margin: 0px 600px;
+    padding: 50px 0px;
+    display: flex;
+   background-color: #3382F6;
+   border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+article .flex-call div {
+        flex: 0 1 auto;
+        
+}
+
+article .flex-call #btn{
+    background-color: #3382F6;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+article .flex-call h6{
+    color :white;
+    font-size: 18px;
+    margin: 0;
+}
+article .flex-call p{
+    color: white;
+    
+}
+
+
+/* footer */
+footer p{
+    font-size: 18px;
+    color :#E5E7EB
+
+}
+footer{
+    margin: 20px 0;
+    text-align: center;
+}
